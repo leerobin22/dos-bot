@@ -12,11 +12,10 @@ To test if the bot is online.
 To play music / songs from youtube.
 ```bash
 !play <youtube link / song title>
-```
------
-To stop music / songs.
-```bash
 !stop
+!pause
+!resume
+!volume <0.0 - 1.0>
 ```
 -----
 To generate a randomly chosen Valorant maps.
@@ -33,3 +32,14 @@ To get the current weather of a certain location.
 ```bash
 !weather <Name of city / location>
 ```
+-----
+To get a random quotes!
+```bash
+!quotes
+```
+-----
+To get quotes of the day (Daily at 10 AM GMT+7)
+```bash
+!qotd
+```
+-----
